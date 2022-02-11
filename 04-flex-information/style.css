@@ -1,0 +1,47 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin: 32px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.card {
+/* width:200px; per solution, use max-width: 200px instead, allowing the boxes to shrink down*/
+max-width: 200px;
+text-align: center; /* I'm really surprised this is how to center the images. But I guess they're inline-block and inside a block0level element. */
+/* removing this line, and adding it to body */
+}
+
+.text {
+  /* text-align: center; removing this line, and adding it to body */
+}
+
+
+/* do not edit this footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
